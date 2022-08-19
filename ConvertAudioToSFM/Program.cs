@@ -12,7 +12,7 @@ namespace ConvertAudioToSFM
         {
             if (IsAdministrator() == false)
             {
-                MessageBox.Show("You need to run this in administrator mode for whatever fucking reason, else ffmpeg or cmd stuff do not work! :D", "Oopsie, you did a fucky wucky!",
+                MessageBox.Show("You need to run this in administrator mode for whatever fucking reason, else ffmpeg or cmd stuff do not work! :D\nYou can check the code here, and if you can fix it, please tell me.\nhttps://github.com/ShiftTGC/ConvertAudioToSFM", "Oopsie, YOU, yes, YOU, did a fucky wucky!",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             string fullPath; 
